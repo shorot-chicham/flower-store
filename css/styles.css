@@ -121,3 +121,68 @@ figure, figcaption{
     border-radius: 8px;
     padding: 3rem 0rem;
 }
+
+/* hot deal container styles  */
+
+
+.deal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 0rem;
+    background-color: #E5547326;
+    margin-bottom: 4rem;
+    border: none;
+}
+
+.deal-content{
+    text-align: center;
+}
+
+.deal-desc{
+    color: var(--description-color);
+    margin: 1rem 0rem;
+}
+
+.deal-btn{
+    border: none;
+    background-color: #E55473;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.off-text{
+    color: #E55473;
+}
+
+/* Instagram container styles  */
+
+.instagram-container{
+    margin-bottom: 4rem;
+}
+
+.instagram-content{
+    text-align: center;
+}
+
+.instagram-desc{
+    width: 40%;
+    margin: 1rem auto 4rem;
+    color: var(--description-color);
+}
+
+.instagram-flowers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.instagram-flowers img{
+    width: 100%;
+}
+
+
