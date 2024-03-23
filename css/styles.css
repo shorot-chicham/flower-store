@@ -1,0 +1,96 @@
+/* lato google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+:root{
+    --description-color: #27272799; 
+}
+
+.space{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* banner container styles start from here  */
+header{
+    background-color: #E5547319;
+    margin-bottom: 5rem;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+
+.banner-desc{
+    width: 80%;
+    margin: 0.7rem 0rem;
+    color: var(--description-color);
+}
+
+.banner-title{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #272727;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+.banner-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Our Featured  container styles start from here  */
+
+
+.featured-content{
+    text-align: center;
+}
+
+.featured-decs{
+    width: 40%;
+    margin: 1rem auto;
+    color:var(--description-color);
+}
+
+.featured-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0rem;
+}
+
+
+.figure-img{
+    background-color: #A7216226;
+    border: none;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.figure-img img{
+    padding: 2rem 2rem 0rem 2rem;
+    width: 200px;
+    min-height: 308.13px;
+}
+
+
+figure, figcaption{
+    text-align: center;
+    margin-top: 0.6rem;
+}
