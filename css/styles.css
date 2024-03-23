@@ -185,4 +185,40 @@ figure, figcaption{
     width: 100%;
 }
 
+/* latest deal container styles  */
+.latest-container{
+    margin-bottom: 4rem;
+    background-image: url('/images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5rem 4rem;
+}
+
+.latest-content, .latest-input{
+    text-align: center;
+}
+
+.latest-input{
+    margin-top: 2rem;
+}
+
+.latest-input input{
+    border: none;
+    width: 50%;
+    height: auto;
+    padding: 1.1rem 1rem;
+    border-radius: 8px;
+}
+
+.subscribe-btn{
+    border: none;
+    color: #fff;
+    background-color: #E55473;
+    border-radius: 4px;
+    padding: 1.1rem;
+}
+
+
+/* footer container styles  */
+
 
