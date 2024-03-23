@@ -220,5 +220,28 @@ figure, figcaption{
 
 
 /* footer container styles  */
+footer{
+    background-color: #272727;
+}
+.footer-container{
+    text-align: center;
+    padding: 3rem 0rem;
+}
 
+.flower-text{
+    color: #E55473;
+}
 
+.shop-text{
+    color: #fff;
+}
+
+.flower-desc{
+    color: #FFFFFFE6;
+    width: 50%;
+    margin: 1rem auto 3rem;
+}
+
+.copy-right{
+    color: #FFFFFF66;
+}
